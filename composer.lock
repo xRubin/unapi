@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55f6c2e4bd979a78cd8c3aa41dfe6691",
+    "content-hash": "e8a971b4fca0866f65b858b43e642531",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -236,6 +236,76 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "unapi/anticaptcha-common",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xRubin/unapi-anticaptcha-common.git",
+                "reference": "8c52ce034240cac0b4793d4c18f030a5c22a8b4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xRubin/unapi-anticaptcha-common/zipball/8c52ce034240cac0b4793d4c18f030a5c22a8b4b",
+                "reference": "8c52ce034240cac0b4793d4c18f030a5c22a8b4b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "unapi\\anticaptcha\\common\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Unapi anticaptcha common classes",
+            "keywords": [
+                "Guzzle",
+                "anticaptcha",
+                "captcha",
+                "promise",
+                "unapi"
+            ],
+            "time": "2017-08-02T12:52:34+00:00"
+        },
+        {
+            "name": "unapi/sms-common",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xRubin/unapi-sms-common.git",
+                "reference": "efca53c2b4aebc81ff5dcba5c2c3ddb553d01932"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xRubin/unapi-sms-common/zipball/efca53c2b4aebc81ff5dcba5c2c3ddb553d01932",
+                "reference": "efca53c2b4aebc81ff5dcba5c2c3ddb553d01932",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "unapi\\sms\\common\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Unapi sms common classes",
+            "keywords": [
+                "Guzzle",
+                "promise",
+                "sms",
+                "unapi",
+                "virtual phone"
+            ],
+            "time": "2017-08-07T07:44:21+00:00"
         }
     ],
     "packages-dev": [],
