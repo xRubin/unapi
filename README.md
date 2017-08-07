@@ -17,3 +17,4 @@ composer require unapi/unapi
 | Тип сервиса | URL сервиса | Ссылка |
 | --- | ---| --- |
 | ФМС | http://services.fms.gov.ru/ | [unapi/fms](https://github.com/xRubin/unapi-fms) |
+| Центробанк РФ | http://www.cbr.ru/ | [unapi/cbr](https://github.com/xRubin/unapi-cbr) |
