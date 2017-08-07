@@ -11,6 +11,7 @@ composer require unapi/unapi
 | --- | ---| --- |
 | Антикапча | http://antigate.com/ | [unapi/anticaptcha-antigate](https://github.com/xRubin/unapi-anticaptcha-antigate) |
 | СМС | http://sms-area.org/ | [unapi/sms-smsarea](https://github.com/xRubin/unapi-sms-smsarea) |
+| Очистка | https://dadata.ru/ | [unapi/dadata](https://github.com/xRubin/unapi-dadata) |
 
 ### Парсинг данных
 | Тип сервиса | URL сервиса | Ссылка |
