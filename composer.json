@@ -8,6 +8,12 @@
         "php": ">=7.1.0",
         "guzzlehttp/guzzle": "^6.3"
     },
+    "autoload" : {
+        "psr-4": {
+            "unapi\\dto\\": "src/dto",
+            "unapi\\interfaces\\": "src/interfaces"
+        }
+    },
     "suggest": {
         "unapi/anticaptcha-common": "Anticaptcha common layer",
         "unapi/def-common": "DEF phone detect common layer",
