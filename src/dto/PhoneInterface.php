@@ -2,7 +2,9 @@
 
 namespace unapi\dto;
 
-interface PhoneInterface
+use unapi\interfaces\DtoInterface;
+
+interface PhoneInterface extends DtoInterface
 {
     /**
      * @param string $prepend
