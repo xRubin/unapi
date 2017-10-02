@@ -1,7 +1,7 @@
 {
     "name": "unapi/unapi",
     "description": "Unapi tools collection",
-    "keywords": ["unapi", "guzzle", "promise", "captcha", "anticaptcha", "sms", "virtual phone"],
+    "keywords": ["unapi", "guzzle", "promise", "captcha", "anticaptcha", "sms", "service", "tool", "async"],
     "type": "library",
     "minimum-stability": "stable",
     "require": {
