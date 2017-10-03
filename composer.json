@@ -10,7 +10,6 @@
     },
     "autoload" : {
         "psr-4": {
-            "unapi\\dto\\": "src/dto",
             "unapi\\interfaces\\": "src/interfaces"
         }
     },
