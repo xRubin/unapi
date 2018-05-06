@@ -14,8 +14,6 @@
         }
     },
     "suggest": {
-        "unapi/anticaptcha-common": "Anticaptcha common layer",
-        "unapi/def-common": "DEF phone detect common layer",
-        "unapi/sms-common": "Sms common layer"
+        "unapi/anticaptcha-common": "Anticaptcha common layer"
     }
 }
