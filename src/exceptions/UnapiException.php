@@ -1,8 +1,8 @@
 <?php
 
-namespace unapi\interfaces;
+namespace unapi\exceptions;
 
 class UnapiException extends \RuntimeException
 {
-    
+
 }
